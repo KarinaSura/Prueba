@@ -1,0 +1,100 @@
+body {
+	background: rgb(206, 227, 244);	
+	font-family: "Trebuchet MS",Verdana,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+#content {
+	width: 930px;
+	margin: 50px auto;
+	padding: 20px;
+	background: #FFF;	
+	margin-left:0px;
+}
+.wrapper{
+	width: 966px;
+	margin: 0px auto;
+	position: relative;
+}
+#main{
+	width: 100%;
+}
+
+h1 {
+	margin: 0;
+}
+
+hr {
+	border: none;
+	height: 1px; line-height: 1px;
+	background: blue;	
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+p {
+	margin: 0;	
+	padding: 7px 0;
+}
+
+.clear {
+	clear: both;
+	line-height: 1px;
+	font-size: 1px;
+}
+
+a { 
+	outline-color: #888;	
+}
+
+table {
+
+		background:rgb(206, 227, 244);
+		margin-bottom:30px;
+		margin-rigth:30px;
+		margin-left:0px;
+		width:600px;
+		}
+		table thead {
+			background:rgb(14, 107, 169);
+			color:rgb(206, 227, 244);
+			font-weight:bold;
+			text-transform:uppercase;			
+			font-family:"Myriad Pro", Verdana, Arial;
+			font-size:15px;
+			letter-spacing:-1px;
+			text-align:left;
+			}			
+	table th,
+	table td {
+	   
+		padding:10px;
+		border-bottom:1px solid #F0F0F0;
+		vertical-align:text-top;
+		}
+#tabla1{
+
+		background:rgb(206, 227, 244);
+		margin-bottom:30px;
+		margin-rigth:30px;
+		margin-left:0px;
+		width:800px;
+		}
+		table thead {
+			background:rgb(14, 107, 169);
+			color:rgb(206, 227, 244);
+			font-weight:bold;
+			text-transform:uppercase;			
+			font-family:"Myriad Pro", Verdana, Arial;
+			font-size:15px;
+			letter-spacing:-1px;
+			text-align:left;
+			}			
+	table th,
+	table td {
+	   
+		padding:10px;
+		border-bottom:1px solid #F0F0F0;
+		vertical-align:text-top;
+		}		
