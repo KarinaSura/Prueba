@@ -12,12 +12,12 @@ include("conexion.php");
    <script language="JavaScript" type="text/javascript"> 
 
 
-
+//Hola Gordo :3
     
 <!-- 
 function Confirmar(frm) { 
 
-var borrar = confirm("Estás seguro/a de que quiere eliminar estos registros?"); 
+var borrar = confirm("Estï¿½s seguro/a de que quiere eliminar estos registros?"); 
 
 return borrar; //true o false 
 
@@ -205,7 +205,7 @@ $gen=$row['genero'];
 $ubi=$row['ubicacion'];
 $edicion=$row['lugar_edicion'];
 $edito=$row['editorial'];
-$año=$row['año'];
+$aï¿½o=$row['aï¿½o'];
 $cantidad=$row['cant_paginas'];
 $is=$row['ISBN_ISSN'];
 $nive=$row['nivel'];
@@ -233,7 +233,7 @@ $ejemplares=$row['cant_ejemplares'];
    <li> <label>Ubicacion: </label><input type="text"  value="<?php echo $ubi; ?>" name="ubica" size="25" style="background:#F3FCFF"/> </li>
   <li><label>Lugar Edicion: </label><input type="text"  value="<?php echo $edicion;  ?>" name="lugar" size="25" style="background:#F3FCFF"/> </li>
   <li><label>Editorial: </label><input type="text"  value="<?php echo $edito; ?>" name="edit" size="25" style="background:#F3FCFF"/>  </li>
-  <li><label>Año: </label><input type="text"  value="<?php echo $año; ?>" name="ao" size="25" style="background:#F3FCFF"/></li>
+  <li><label>Aï¿½o: </label><input type="text"  value="<?php echo $aï¿½o; ?>" name="ao" size="25" style="background:#F3FCFF"/></li>
      <li><label>Paginas: </label><input type="text"  value="<?php echo $cantidad; ?>" name="canti" size="25" style="background:#F3FCFF"/>  </li>
       <li><label>ISBN: </label><input type="text"  value="<?php echo $is; ?>" name="isb" size="25" style="background:#F3FCFF"/>  </li>
        <li><label>Nivel: </label><input type="text"  value="<?php echo $nive; ?>" name="nivel" size="25" style="background:#F3FCFF"/>  </li>
@@ -423,7 +423,7 @@ $cant=$_POST["edit"];
 $des=$_POST["ao"];
 
 
-  $desc="UPDATE libros SET año='$des' WHERE titulo_libro='$identi'";
+  $desc="UPDATE libros SET aï¿½o='$des' WHERE titulo_libro='$identi'";
            mysql_query($desc);
 
 }
@@ -539,7 +539,7 @@ $ctd=$_POST["cante"];
 
        <div id="footer"><h3 style="margin-left: 40%;text-transform: uppercase;"><a href="">Direccion Nacional de Formacion Continua</a></h3>
 
-      <h4 style="margin-left: 46%;margin-top:5px;color:white;"> Copyright © ESMA       </h4>
+      <h4 style="margin-left: 46%;margin-top:5px;color:white;"> Copyright ï¿½ ESMA       </h4>
 
 
 
